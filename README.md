@@ -3,14 +3,13 @@
 ### DATASET: Winedata
 ### URL: [kaggle](https://www.kaggle.com/subh86/winedata)
 ## Resum
-The dataset has been about the wine comments or reviews that has been given by various wine tasters. 
-Tenim 129971 dades amb 14 atributs. Un 83% d'ells és categoric,els altres són numérics
+El conjunt de dades ha estat sobre els comentaris o ressenyes de vins que han fet diferents tastadors de vins. Tenim 129971 dades amb 14 atributs. Un 83% d'aquests són categòrics, on comprenen atributs geogràfics com el país, la província i la regió d'origen. Després també tenim el celler, el nom del tastador i el seu Twitter. I com atributs numèrics tenim el preu i la puntuació que li han donat els tastadors.
 ### Objectius del dataset
-The concept was to use text classification to classify the commenters over the reviews.
+El concepte principal és utilitzar la classificació de text per classificar els comentaristes a partir de les ressenyes. 
 ## Experiments
-Durant aquesta pràctica hem realitzat diferents experiments.
+Durant aquesta pràctica he realitzat diferents experiments. Un cop analitzades i visualitzades les dades. He decidit provar dos tipus de mètodes per preprocessar les ressenyes dels tastadors de vins, i amb cada un d'aquests mètodes he aplicat dos entrenaments, un amb el model regressió logística i l'altre amb el naïf Bayes. També destacar que s'han fet proves d'hipermarametres en el cas del nombre màxim d'iteracions que fa la regressió logística. 
 ### Preprocessat
-Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han afectat als resultats?
+Com he esmentat anteriorment el preprocessament s'han intentat dos mètodes diferents per processar el text de les ressenyes de vins.
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
