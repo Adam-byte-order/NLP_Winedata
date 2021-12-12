@@ -16,13 +16,11 @@ Aquests mètodes són molt similars i estan basats en el model bag of words. Exp
 | -- | -- | -- | -- |
 | Naive bayes with CountVectorizer | - | 57% | 100ms |
 | Naive bayes with TfidfVectorizer | - | 58% | 1000ms |
-
 | LogisticRegression with CountVectorizer | max_iter:50 | 58% | 200ms |
 | LogisticRegression with CountVectorizer | max_iter:100 | 58% | 200ms |
 | LogisticRegression with CountVectorizer | max_iter:500 | 58% | 200ms |
 | LogisticRegression with CountVectorizer | max_iter:1000 | 58% | 200ms |
 | LogisticRegression with CountVectorizer | max_iter:10000 | 58% | 200ms |
-
 | LogisticRegression with TfidfVectorize | max_iter:50 | 58% | 200ms |
 | LogisticRegression with TfidfVectorize | max_iter:100 | 58% | 200ms |
 | LogisticRegression with TfidfVectorize | max_iter:500 | 58% | 200ms |
