@@ -14,10 +14,10 @@ Aquests mètodes són molt similars i estan basats en el model bag of words. Exp
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
-| [Random Forest](link) | 100 Trees, XX | 57% | 100ms |
-| Random Forest | 1000 Trees, XX | 58% | 1000ms |
-| SVM | kernel: lineal C:10 | 58% | 200ms |
-| -- | -- | -- | -- |
+| [Naive bayes with CountVectorizer | - | 57% | 100ms |
+| Naive bayes with TfidfVectorizer | - | 58% | 1000ms |
+| LogisticRegression with CountVectorizer | max_iter:100 | 58% | 200ms |
+| LogisticRegression with TfidfVectorize | max_iter:100 | 58% | 200ms |
 | [model de XXX](link al kaggle) | XXX | 58% | ?ms |
 | [model de XXX](link al kaggle) | XXX | 62% | ?ms |
 ## Demo
