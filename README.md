@@ -27,15 +27,10 @@ Aquests mètodes són molt similars i estan basats en el model bag of words. Exp
 | Naive bayes with CountVectorizer | - | 96% | 0.130s |
 | Naive bayes with TfidfVectorizer | - | 86% | 0.136s |
 
-## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
+
 ## Conclusions
 El millor model que s'ha aconseguit ha estat la regresio logistica utilitzant previament la funcio CountVectorizer per preprocessar el text(97.75% accuracy)
 En comparació amb l'unic notebook que hi ha kaggle que traballa amb el mateix dataset he pogut millorar lleugerament el valor final d'accuracy amb els dos models:
 Accuracy of Logistic Model == 0.96 -> 0.97
 Accuracy of Naives Model == 0.85 -> 0.96
-## Idees per treballar en un futur
-Crec que seria interesant indagar més en...
-## Llicencia
-El projecte s’ha desenvolupat sota llicència ZZZz.
+
